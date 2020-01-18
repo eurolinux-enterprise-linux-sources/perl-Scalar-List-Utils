@@ -1,6 +1,6 @@
 Name:           perl-Scalar-List-Utils
 Version:        1.27
-Release:        246%{?dist}
+Release:        248%{?dist}
 Summary:        A selection of general-utility scalar and list subroutines
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -66,6 +66,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 1.27-248
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.27-247
+- Mass rebuild 2013-12-27
+
 * Wed Jul 31 2013 Petr Pisar <ppisar@redhat.com> - 1.27-246
 - Specify all dependencies
 
